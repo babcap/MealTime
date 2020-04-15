@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let context = (UIApplication.shared.delegate as? AppDelegate)?.coreDataStack.persistentContainer.viewContext
         
-        vc.conrext = context
+        vc.context = context
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
